@@ -1,0 +1,125 @@
+/* 🩰 Soft Pink Theme */
+body {
+  font-family: 'Nunito', sans-serif;
+  background-color: #ffeaf6;
+  color: #444;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* Header */
+header {
+  background-color: #ffc8dd;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(255, 150, 200, 0.2);
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 600;
+  transition: 0.3s ease-in-out;
+}
+
+nav a:hover {
+  color: #ff90bc;
+  text-shadow: 0 0 10px #ffb6c1;
+}
+
+/* Sections */
+section {
+  padding: 50px 10%;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #ff90bc;
+}
+
+/* Portfolio Gallery */
+.gallery {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.gallery img {
+  width: 300px;
+  border-radius: 15px;
+  box-shadow: 0 8px 15px rgba(255, 150, 200, 0.2);
+  transition: 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.1);
+}
+
+/* Skills */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+/* Contact Form */
+form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 8px 15px rgba(255, 150, 200, 0.1);
+}
+
+input, textarea, button {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ffb6c1;
+}
+
+button {
+  background-color: #ff90bc;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #ff70a6;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #ffc8dd;
+  color: white;
+}
+.sparkle {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: pink;
+  border-radius: 50%;
+  opacity: 0.7;
+  animation: sparkle-animation 1s ease-out;
+}
+
+@keyframes sparkle-animation {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(3);
+    opacity: 0;
+  }
+}
+
